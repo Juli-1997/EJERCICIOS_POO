@@ -1,0 +1,20 @@
+def calcular_edadalber(edad_juan):
+    return 2 * edad_juan / 3
+
+def calcular_edadana(edad_juan):
+    return 4 * edad_juan / 3
+
+def calcular_edadmama(edad_juan, edad_alb, edad_ana):
+    return edad_juan + edad_alb + edad_ana
+
+
+edad_juan = int(input("Juan, ¿cuántos años tienes? \n"))
+
+edad_alb = calcular_edadalber(edad_juan)
+edad_ana = calcular_edadana(edad_juan)
+edad_mama = calcular_edadmama(edad_juan, edad_alb, edad_ana)
+
+print(f"La edad de Juan es: {int(edad_juan)}")
+print(f"La edad de Alberto es:{int(edad_alb)}")
+print(f"La edad de Ana es:{int(edad_ana)}")
+print(f"La edad de la mamá es: {int(edad_mama)}")
