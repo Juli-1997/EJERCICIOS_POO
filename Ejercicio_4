@@ -1,0 +1,20 @@
+package com.mypoo2.ejercicio_4;
+
+/**
+ *
+ * @author HP-255-G10
+ */
+public class calcula_edades {
+  static int calcular_edadalber(int edad_juan) {
+        return 2 * edad_juan / 3;
+    }
+
+  static int calcular_edadana(int edad_juan) {
+        return 4 * edad_juan / 3;
+    }
+
+  static int calcular_edadmama(int edad_juan, int edad_Alb, int edad_ana) {
+        return edad_juan + edad_Alb + edad_ana;
+    }
+
+}
